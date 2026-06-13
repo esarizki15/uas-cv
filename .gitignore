@@ -1,0 +1,43 @@
+# === Python Environment & Virtual Env ===
+env/
+venv/
+ENV/
+bin/
+lib/
+include/
+.venv/
+
+# === macOS System Files ===
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# === Windows System Files ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Python Cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# === IDE Configurations ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# === Streamlit Configurations ===
+.streamlit/
+
+# === YOLOv8 Logs & Training Weights ===
+# Mengabaikan folder runs agar file hasil training yang besar tidak ikut ter-upload
+runs/
