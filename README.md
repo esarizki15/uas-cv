@@ -33,8 +33,8 @@ Berikut adalah panduan menjalankan proyek ini secara lokal pada perangkat Anda (
 
 ### 1. Kloning Repositori (Jika di-upload ke GitHub)
 ```bash
-git clone https://github.com/username-anda/nama-repo-anda.git
-cd nama-repo-anda
+git clone https://github.com/esarizki15/uas-cv
+cd uas-cv
 ```
 *Atau jika Anda langsung membuat foldernya secara lokal, masuk ke folder melalui Terminal/CMD:*
 ```bash
@@ -69,13 +69,13 @@ Aplikasi web otomatis akan terbuka pada peramban (*browser*) Anda di alamat `htt
 ---
 
 ## 📊 Dataset & Metrik Evaluasi
-* **Sumber Data:** *Annotated Apple Leaf Disease Dataset* (Kaggle & Roboflow Universe).
+* **Sumber Data:** [Annotated Apple Leaf Disease Dataset](https://www.kaggle.com/datasets/amitra19/annotated-apple-leaf-disease-dataset-mask-rcnn) (Kaggle) dan Roboflow Universe.
 * **Arsitektur Model:** YOLOv8 Nano Segmentation (`yolov8n-seg.pt`).
 * **Metrik Evaluasi Latihan:** Penurunan fungsi *loss* (*box_loss*, *seg_loss*, *cls_loss*) dan peningkatan nilai *Mean Average Precision* (mAP50) untuk performa segmentasi topologi geometri bercak daun.
 
 ---
 
-## 📝 Anggota Tim / Pengembang
-* **Nama:** [Isi Nama Anda]
-* **NIM:** [Isi NIM Anda]
+## 📝 Pengembang
+* **Nama:** Esa Rizki Hari Utama
+* **NIM:** 241012050106
 * **Dosen Pengampu:** Dr. Arya Adhyaksa Waskita
