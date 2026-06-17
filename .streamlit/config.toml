@@ -1,0 +1,15 @@
+[theme]
+# Warna utama untuk tombol, slider, dan elemen interaktif (Hijau Teal/Tosca dari ikon PPT)
+primaryColor = "#1EAB7A"
+
+# Warna latar belakang utama aplikasi (Putih sedikit kebiruan/kehijauan sangat muda)
+backgroundColor = "#F4F8F8"
+
+# Warna latar belakang sekunder untuk sidebar, st.info, dll (Putih bersih seperti card di PPT)
+secondaryBackgroundColor = "#FFFFFF"
+
+# Warna teks utama (Hijau tua gelap dari teks "Solusi Teknologi")
+textColor = "#175342"
+
+# Jenis font
+font = "sans serif"

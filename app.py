@@ -89,7 +89,7 @@ if uploaded_file is not None:
         total_piksel = combined_mask.size
         
         # Rumus Estimasi Luas: (Piksel Sakit / Total Piksel Gambar) x 100%
-        persentase_luas_infeksi = (piksel_infeksi / total_pixels_in_mask) * 100 if 'total_pixels_in_mask' in locals() else (piksel_infeksi / total_piksel) * 100
+        persentase_luas_infeksi = (piksel_infeksi / total_piksel) * 100
         
         # Menampilkan hasil kalkulasi persentase dengan widget Metric Streamlit yang futuristik
         st.metric(label="Estimasi Luas Area Infeksi (Terhadap Total Luas Daun/Foto)", value=f"{persentase_luas_infeksi:.2f} %")

@@ -36,7 +36,7 @@ __pycache__/
 *.swp
 
 # === Streamlit Configurations ===
-.streamlit/
+# .streamlit/
 
 # === YOLOv8 Logs & Training Weights ===
 # Mengabaikan folder runs agar file hasil training yang besar tidak ikut ter-upload
